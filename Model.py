@@ -5,6 +5,7 @@ from spacy.util import minibatch, compounding
 import random
 from spacy.training import Example
 from pathlib import Path
+from Annotation import TRAIN_DATA
 
 
 LABEL = "STORE_NUMBER"
